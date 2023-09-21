@@ -1,17 +1,12 @@
-Welcome to Lumache's documentation!
+Welcome to Datatruck TMS OpenAPI service!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Datatruck provides a robust set of REST APIs to allow you to integrate Datatruck into virtually any platform. 
+These APIs cover all of Datatruck's major product areas, including Order (Load), Trips, Driver information and many more. 
 
 .. note::
 
-   This project is under active development.
+   This documentation and Datatruck REST APIs are actively under developement.
 
 Contents
 --------

@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Datatruck OpenAPI'
+copyright = '2023, Datatruck.io'
+author = 'Diyorbek Azimqulov'
 
 release = '0.1'
 version = '0.1.0'
