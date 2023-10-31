@@ -32,61 +32,8 @@ Datatruck uses the API Key Token HTTP authentication scheme. In order to use the
 
 The Datatruck API returns JSON-encoded responses (It is list of loads):
 
-.. code-block:: json
-[
-	{
-		"id": 2489,
-		"load_id": "T-111QT34XS",
-		"shipment_id": "DT-002489",
-		"status": "dispatched",
-		"load_pay": 148.17,
-		"total_miles": 574.31,
-		"created_datetime": "2023-10-11T13:42:54.456045Z",
-		"created_by__full_name": "Super Admin",
-		"total_other_pay": 122.0,
-		"total_pay": 270.17,
-		"per_mile_revenue": 0.26,
-		"tags": [],
-		"dispatcher__full_name": " ",
-		"customer__company_name": "string",
-		"mc_number__company_name": "Updated Test Mc Number",
-		"office__office_name": null,
-		"pickup_appointment_time": "2023-10-08T20:00:00Z",
-		"delivery_appointment_time": "2023-10-11T23:14:00Z",
-		"pickup_time": "2023-10-08T20:00:00Z",
-		"delivery_time": "2023-10-11T23:14:00Z",
-		"trip": {
-			"id": 1913,
-			"status": "assigned",
-			"trip_id": "TR-002489-01",
-			"mile": 574.31,
-			"empty_mile": 0.0,
-			"total_load_pay": 148.17,
-			"carrier__name": null,
-			"driver__full_name": "awefas fasdfads",
-			"team_driver__full_name": " ",
-			"truck__unit_number": "fasdfawefadsfasdf",
-			"pickup": {
-				"id": 1348,
-				"company": "DWA9",
-				"address1": "3711 142nd Ave E, Sumner, WA 98390, USA",
-				"city": "Sumner",
-				"state": "Washington",
-				"zip_code": "98390"
-			},
-			"delivery": {
-				"id": 1348,
-				"company": "DWA9",
-				"address1": "3711 142nd Ave E, Sumner, WA 98390, USA",
-				"city": "Sumner",
-				"state": "Washington",
-				"zip_code": "98390"
-			},
-			"settlement": null
-		},
-		"batch_orders": null
-	},
-    ...
-]
 
-Thank you, we are developing Postman OpenAPI collection.
+.. literalinclude:: order.json
+  :language: JSON
+
+Thank you, we are developing Postman OpenAPI collection..
